@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arithmetic Operations</title>
+</head>
+<body>
+    <h2>Arithmetic Operations</h2>
+
+    <script>
+        let num1 = parseFloat(prompt("Enter first number:"));
+        let num2 = parseFloat(prompt("Enter second number:"));
+
+        document.write("<h3>Results:</h3>");
+        document.write("Addition: " + (num1 + num2) + "<br>");
+        document.write("Subtraction: " + (num1 - num2) + "<br>");
+        document.write("Multiplication: " + (num1 * num2) + "<br>");
+
+        if (num2 !== 0) {
+            document.write("Division: " + (num1 / num2) + "<br>");
+        } else {
+            document.write("Division: Cannot divide by zero");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Growing and Shrinking</title>
+    <link rel="stylesheet" href="style9.css">
+</head>
+<body>
+
+    <h2 id="text">Hello World!</h2>
+
+    <button onclick="growText()">Grow Text</button>
+    <button onclick="shrinkText()">Shrink Text</button>
+
+    <script>    /*JavaScript code to grow and shrink text size*/
+        let size = 20;
+
+        function growText() {
+            size = size + 2;
+            document.getElementById("text").style.fontSize = size + "px";
+        }
+
+        function shrinkText() {
+            size = size - 2;
+            document.getElementById("text").style.fontSize = size + "px";
+        }
+    </script>
+
+</body>
+</html>

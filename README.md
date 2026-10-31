@@ -98,7 +98,7 @@ WEB-TECHNOLOGY/
 
 **Jayvardhan Dabhi**
 Course: Web Technologies (C2111C3)
-Institution: <your college name>
+Institution: ITM-SLS Baroda University
 
 ## License
 

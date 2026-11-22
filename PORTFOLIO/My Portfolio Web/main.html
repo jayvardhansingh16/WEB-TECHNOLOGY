@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Jayvardhan Dabhi — B.Tech CSE (AI-ML) student at ITM-SLS Baroda University, web developer and Python programmer.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Jayvardhan Dabhi | Portfolio</title>
+    <script>
+        // Apply the saved theme before paint to avoid a flash of the wrong theme
+        (function () {
+            var saved = localStorage.getItem('theme');
+            if (saved) document.documentElement.dataset.theme = saved;
+        })();
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="left" href="#home">JD's Portfolio</a>
+            <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="right" id="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                <p class="greet">Hii, I'm <span class="name">Jayvardhan!</span></p>
+                <p class="role">and I am <span id="element"></span></p>
+                <p class="hero-meta">B.Tech CSE (AI-ML) &middot; ITM-SLS Baroda University</p>
+                <div class="hero-btns">
+                    <a class="btn btn-primary" href="#work">View My Work</a>
+                    <a class="btn btn-ghost" href="#contact">Contact Me</a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg,png.png" alt="Jayvardhan Dabhi">
+            </div>
+        </section>
+
+        <section class="secondSection" id="about">
+            <span class="grey">Who I Am</span>
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Education</h3>
+                    <p class="uni">ITM-SLS BARODA UNIVERSITY</p>
+                    <p class="muted">Branch: B.Tech CSE (AI-ML)</p>
+                </div>
+                <div class="about-card">
+                    <h3>What I Do</h3>
+                    <p class="muted">I build web pages and small applications while learning AI &amp; machine learning. Outside of code I train for powerlifting and study forex trading.</p>
+                </div>
+            </div>
+            <h3 class="skills-title">Skills &amp; Interests</h3>
+            <ul class="skills">
+                <li>Web Development</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>AI / ML</li>
+                <li>Software Development</li>
+                <li>Powerlifting</li>
+                <li>Forex Trading (Learner)</li>
+            </ul>
+        </section>
+
+        <section class="secondSection" id="work">
+            <span class="grey">My Creations</span>
+            <h2>Explore My Work</h2>
+            <p class="section-sub">Web technology practicals and games built with HTML, CSS and JavaScript.</p>
+
+            <div class="projects" id="projects">
+                <article class="card">
+                    <span class="card-num">Practical 02</span>
+                    <h3>Portfolio Page</h3>
+                    <p>A personal portfolio with name, course details, skills and a contact footer.</p>
+                    <div class="tags"><span>HTML</span><span>CSS</span></div>
+                    <a class="btn btn-sm" href="../../PRACTICALS/practical%202%20(Portfolio).html" target="_blank" rel="noopener">Open Project</a>
+                </article>
+
+                <article class="card">
+                    <span class="card-num">Practical 03</span>
+                    <h3>Food Drive</h3>
+                    <p>A community food drive page covering why to volunteer and how to help.</p>
+                    <div class="tags"><span>HTML</span><span>CSS</span></div>
+                    <a class="btn btn-sm" href="../../PRACTICALS/practical%203%20(Food%20Drive).html" target="_blank" rel="noopener">Open Project</a>
+                </article>
+
+                <article class="card">
+                    <span class="card-num">Practical 04</span>
+                    <h3>AI Info Web</h3>
+                    <p>A multi-page informational site about artificial intelligence with images and links.</p>
+                    <div class="tags"><span>HTML</span><span>Multi-page</span></div>
+                    <a class="btn btn-sm" href="../../PRACTICALS/practical%204%20(AI%20Info%20WEB)/page1.html" target="_blank" rel="noopener">Open Project</a>
+                </article>
+
+                <article class="card">
+                    <span class="card-num">Practical 05</span>
+                    <h3>Commerce Department</h3>
+                    <p>A department page linked to a detailed page with useful finance resources.</p>
+                    <div class="tags"><span>HTML</span><span>CSS</span></div>
+                    <a class="btn btn-sm" href="../../PRACTICALS/practical%205%20(Commerce%20Department)/practical%205%20(Commerce%20Departmenet).html" target="_blank" rel="noopener">Open Project</a>
+                </article>
+
+                <article class="card">
+                    <span class="card-num">Practical 06</span>
+                    <h3>Student Book Survey</h3>
+                    <p>A bookstore survey form with contact fields, six questions and submit/reset buttons.</p>
+                    <div class="tags"><span>HTML</span><span>Forms</span></div>
+                    <a class="btn btn-sm" href="../../PRACTICALS/practical%206%20(Student%20Book%20Survey).html" target="_blank" rel="noopener">Open Project</a>
+                </article>
+
+                <article class="card">
+                    <span class="card-num">Practical 07</span>
+                    <h3>Soccer League</h3>
+                    <p>A soccer league website with its own stylesheet and interactive JavaScript.</p>
+                    <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    <a class="btn btn-sm" href="../../PRACTICALS/practical%207%20(Schererville%20Soccer%20League)/practical%207.html" target="_blank" rel="noopener">Open Project</a>
+                </article>
+
+                <article class="card">
+                    <span class="card-num">Practical 08</span>
+                    <h3>Arithmetic Operations</h3>
+                    <p>Takes two numbers with prompts and displays sum, difference, product and quotient.</p>
+                    <div class="tags"><span>JavaScript</span></div>
+                    <a class="btn btn-sm" href="../../PRACTICALS/practical%208%20(Airthmatic%20Operations).html" target="_blank" rel="noopener">Open Project</a>
+                </article>
+
+                <article class="card">
+                    <span class="card-num">Practical 09</span>
+                    <h3>Grow &amp; Shrink Text</h3>
+                    <p>Buttons that increase or decrease a heading's font size on every click.</p>
+                    <div class="tags"><span>JavaScript</span><span>DOM</span></div>
+                    <a class="btn btn-sm" href="../../PRACTICALS/practical%209%20(shrinking%20text%20by%20JS).html" target="_blank" rel="noopener">Open Project</a>
+                </article>
+
+                <article class="card">
+                    <span class="card-num">Practical 10</span>
+                    <h3>Login Form</h3>
+                    <p>A styled login form with client-side validation written in JavaScript.</p>
+                    <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    <a class="btn btn-sm" href="../../PRACTICALS/practical%2010%20(Login%20Form%20css%20&amp;%20js)/practical10.html" target="_blank" rel="noopener">Open Project</a>
+                </article>
+
+                <article class="card">
+                    <span class="card-num">Game</span>
+                    <h3>Tic Tac Toe</h3>
+                    <p>A two-player Tic Tac Toe game with win detection, a winner popup and a reset button.</p>
+                    <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    <a class="btn btn-sm" href="../../GAME/Tic%20Tac%20Toe/main.html" target="_blank" rel="noopener">Open Project</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="secondSection" id="contact">
+            <span class="grey">Get In Touch</span>
+            <h2>Contact Me</h2>
+            <p class="section-sub">Open to internships, collaborations and learning opportunities.</p>
+
+            <div class="contact-grid">
+                <a class="btn contact-btn" href="https://github.com/jayvardhansingh16" target="_blank" rel="noopener">
+                    <span class="c-label">GitHub</span>
+                    <span class="c-handle">@jayvardhansingh16</span>
+                </a>
+                <a class="btn contact-btn" href="https://www.instagram.com/jayvardhan_singh_ranasan/" target="_blank" rel="noopener">
+                    <span class="c-label">Instagram</span>
+                    <span class="c-handle">@jayvardhan_singh_ranasan</span>
+                </a>
+                <a class="btn contact-btn" href="https://www.linkedin.com/in/jayvardhansingh-dabhi/" target="_blank" rel="noopener">
+                    <span class="c-label">LinkedIn</span>
+                    <span class="c-handle">Jayvardhansingh Dabhi</span>
+                </a>
+                <a class="btn contact-btn" href="mailto:dabhijayvardhansinh1209@gmail.com">
+                    <span class="c-label">Email</span>
+                    <span class="c-handle">dabhijayvardhansinh1209@gmail.com</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jayvardhan Dabhi &middot; ITM-SLS Baroda University</p>
+    </footer>
+
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/>
+        </svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
+        </svg>
+    </button>
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
